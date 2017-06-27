@@ -1,3 +1,113 @@
+function sumTo(n) {
+    var sum = 0;
+    for (var i = 1; i <= n; i++){
+        return n + sumTo(n - 1);
+    }
+    return sum;
+}
+document.write(sumTo(3));
+
+/*function calcFibanachi(n) {
+  var a = 1,
+    b = 1;
+  for (var i = 3; i <= n; i++) {
+    var c = a + b;
+    a = b;
+    b = c;
+  }
+  return b;
+}*/
+
+/*function calcFibanachi(n) {
+    if (n < 2) {
+        return n;
+    }
+    else {
+        return (calcFibanachi(n - 1) + calcFibanachi(n - 2))
+    }
+}
+document.write(calcFibanachi(77));*/
+
+// function pow(x,n) {
+
+//     for (var i = 1; i < n; i++) {
+//          return x = x *  pow(x, n - 1);
+
+//     }
+//     return result;
+// }
+/*function pow(x,n) {
+    var result = x;
+    for (var i = 1; i < n ; i++){
+        result *= pow(x, n - 1);
+        return result;
+    }
+    return result;
+}
+ alert(pow(2,3));
+*/
+
+/*function pow(x,n) {
+    if (n != 1) {
+        return x * pow(x,n - 1);
+    }
+    else {
+        return x * n;
+    }
+}
+*/
+/*document.write(pow(2,4));*/
+/*function factorial(n) {
+    if (n == 1) {
+        return 1
+    }
+    else {
+        return n * factorial(n - 1);
+    }
+}
+
+document.write(factorial(5));
+*/
+
+
+/*function sumTo(n) {
+    if (n == 1){
+        return 1;
+    }
+    else {
+        return n + sumTo(n - 1);
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*function sumTo(n) {
     var sum = 0;
     for (var i = 1; i <= n; i++){
@@ -10,7 +120,7 @@
   return n * (n + 1) / 2;
 }*/
 
-function sumTo(n) {
+/*function sumTo(n) {
     if (n == 1) {
         return 1;
     }
@@ -18,7 +128,7 @@ function sumTo(n) {
 }
 
 alert(sumTo(15709));
-
+*/
 
 /*function pow(x,n) {
     var result = x;
