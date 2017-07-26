@@ -1,13 +1,21 @@
-function sumTo(n) {
-    var sum = 0;
-    for (var i = 1; i <= n; i++){
-        return n + sumTo(n - 1);
+/*function sumTo(3) {
+    for (var i = 1; i <= 3; i++){
+        return 3 + sumTo(3 - 1);
+        
+          function sumTo(2) {
+            var sum = n;
+            for (var i = 1; i <= 2; i++){
+            return 2 + sumTo(2 - 1);
+            
+                    function sumTo(1) {
+                     var sum = n;
+                    for (var i = 1; i <= 1; i++){
+                         return 1 + sumTo(1 - 1);
     }
-    return sum;
 }
 document.write(sumTo(3));
 
-/*function calcFibanachi(n) {
+function calcFibanachi(n) {
   var a = 1,
     b = 1;
   for (var i = 3; i <= n; i++) {
@@ -16,17 +24,17 @@ document.write(sumTo(3));
     b = c;
   }
   return b;
-}*/
+}
 
-/*function calcFibanachi(n) {
+function calcFibanachi(n) {
     if (n < 2) {
         return n;
     }
     else {
-        return (calcFibanachi(n - 1) + calcFibanachi(n - 2))
+        return (calcFibanachi(n - 1) + calcFibanachi(n - 2));
     }
 }
-document.write(calcFibanachi(77));*/
+document.write(calcFibanachi(7));*/
 
 // function pow(x,n) {
 
